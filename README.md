@@ -66,6 +66,9 @@ Please go through the `cocodataset-master` branch of this repo to use the up to 
 
 # Progress of work and installation
 
+Commits from original repo up till commit id `8c9bcc3cf640524c4c20a9c40e89cb6a2f2fa0e9` of master branch have been
+merged in this branch at the time of updating this README.
+
 This branch has been tested for python `v3.7` on Windows 10 with Anaconda.
 
 Python `v2.x` has been tested, but installation doesn't work.

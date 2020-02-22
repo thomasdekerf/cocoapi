@@ -71,6 +71,8 @@ merged in this branch at the time of updating this README.
 
 This branch has been tested for python `v3.7` on Windows 10 with Anaconda.
 
+Sample notebooks provided may have issues unrelated to this project, but needs further investigation and work.
+
 Python `v2.x` has been tested, but installation doesn't work.
 
 I am accepting PRs for any fixes for 2.7, but might not end up working on it myself.

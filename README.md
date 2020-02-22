@@ -1,3 +1,6 @@
+Fork of COCO API - [philferriere / cocoapi](https://github.com/philferriere/cocoapi)
+===========================================
+
 Clone of COCO API - http://cocodataset.org/
 ===========================================
 
@@ -13,7 +16,7 @@ Please download and place the annotations in: coco/annotations/
 
 For substantially more details on the API please see http://cocodataset.org/#download.
 
-# This clone's README:
+# philferriere clone's README:
 
 To support Windows build and python3 we had to make [minor changes](https://github.com/cocodataset/cocoapi/compare/master...philferriere:master#diff-49ecc5c8e93163121e2cc2eb6b1fca2c) to:
 
@@ -23,13 +26,17 @@ To support Windows build and python3 we had to make [minor changes](https://gith
 To install this package, use `pip` as follows:
 
 ```
-(dlwin36coco) Phil@SERVERP E:\repos
-$ pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
-Collecting git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
-  Cloning https://github.com/philferriere/cocoapi.git to c:\users\phil\appdata\local\temp\pip-req-build-jn698z8p
+$ pip install git+https://github.com/gautamchitnis/cocoapi.git@cocodataset-master#subdirectory=PythonAPI
+Collecting git+https://github.com/gautamchitnis/cocoapi.git@cocodataset-master#subdirectory=PythonAPI
+  Cloning https://github.com/gautamchitnis/cocoapi.git (to revision cocodataset-master) to c:\users\<USER_NAME>\appdata\local\temp\pip-req-build-s94zepg_
+  Running command git clone -q https://github.com/gautamchitnis/cocoapi.git 'C:\Users\<USER_NAME>\AppData\Local\Temp\pip-req-build-s94zepg_'
+  Running command git checkout -b cocodataset-master --track origin/cocodataset-master
+  Branch cocodataset-master set up to track remote branch cocodataset-master from origin.
+  Switched to a new branch 'cocodataset-master'
 Building wheels for collected packages: pycocotools
-  Running setup.py bdist_wheel for pycocotools ... done
-  Stored in directory: C:\Users\Phil\AppData\Local\Temp\pip-ephem-wheel-cache-rde3oevt\wheels\69\2b\12\2fa959e49f73d26cff202c2f4e5079096c9c57c8a8509fd75c
+  Building wheel for pycocotools (setup.py) ... done
+  Created wheel for pycocotools: filename=pycocotools-2.0-cp37-cp37m-win_amd64.whl size=79887 sha256=87f406db43a54ce0b7a1002d12fc3cdb702e825d257be9e3b933bf5babc5e3f3
+  Stored in directory: C:\Users\<USER_NAME>\AppData\Local\Temp\pip-ephem-wheel-cache-enxlc8z4\wheels\6e\c9\59\56484d4d5ac1ab292a452b4c3870277256551505954fc4a1db
 Successfully built pycocotools
 Installing collected packages: pycocotools
 Successfully installed pycocotools-2.0
@@ -55,9 +62,8 @@ It happens because there is a `pycocotools` directory in the same folder as the 
 
 If you get this error, it is because the COCO library you are calling is **NOT** our version of the library. Instead, you are (inadvertently) referencing **a local copy** of the library. So, if you get this error, search the tree of import in your code for a reference to a local `pycocotools` library. Then, move or delete the local version.
 
+# This fork's README:
 
+This fork was created to update the philferriere clone with newer commits from original repo.
 
-
-
-
-
+Please go through the `cocodataset-master` branch of this repo to use the up to date code from original repo.

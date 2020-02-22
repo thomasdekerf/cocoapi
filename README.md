@@ -26,17 +26,13 @@ To support Windows build and python3 we had to make [minor changes](https://gith
 To install this package, use `pip` as follows:
 
 ```
-$ pip install git+https://github.com/gautamchitnis/cocoapi.git@cocodataset-master#subdirectory=PythonAPI
-Collecting git+https://github.com/gautamchitnis/cocoapi.git@cocodataset-master#subdirectory=PythonAPI
-  Cloning https://github.com/gautamchitnis/cocoapi.git (to revision cocodataset-master) to c:\users\<USER_NAME>\appdata\local\temp\pip-req-build-s94zepg_
-  Running command git clone -q https://github.com/gautamchitnis/cocoapi.git 'C:\Users\<USER_NAME>\AppData\Local\Temp\pip-req-build-s94zepg_'
-  Running command git checkout -b cocodataset-master --track origin/cocodataset-master
-  Branch cocodataset-master set up to track remote branch cocodataset-master from origin.
-  Switched to a new branch 'cocodataset-master'
+(dlwin36coco) Phil@SERVERP E:\repos
+$ pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
+Collecting git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
+  Cloning https://github.com/philferriere/cocoapi.git to c:\users\phil\appdata\local\temp\pip-req-build-jn698z8p
 Building wheels for collected packages: pycocotools
-  Building wheel for pycocotools (setup.py) ... done
-  Created wheel for pycocotools: filename=pycocotools-2.0-cp37-cp37m-win_amd64.whl size=79887 sha256=87f406db43a54ce0b7a1002d12fc3cdb702e825d257be9e3b933bf5babc5e3f3
-  Stored in directory: C:\Users\<USER_NAME>\AppData\Local\Temp\pip-ephem-wheel-cache-enxlc8z4\wheels\6e\c9\59\56484d4d5ac1ab292a452b4c3870277256551505954fc4a1db
+  Running setup.py bdist_wheel for pycocotools ... done
+  Stored in directory: C:\Users\Phil\AppData\Local\Temp\pip-ephem-wheel-cache-rde3oevt\wheels\69\2b\12\2fa959e49f73d26cff202c2f4e5079096c9c57c8a8509fd75c
 Successfully built pycocotools
 Installing collected packages: pycocotools
 Successfully installed pycocotools-2.0
